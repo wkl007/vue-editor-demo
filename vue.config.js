@@ -8,8 +8,7 @@ const resolve = dir => require('path').join(__dirname, dir)
 
 module.exports = {
   // 基本路径
-  publicPath: '/',
-  // 输出文件目录
+  publicPath: process.env.NODE_ENV === 'production' ? '/vue-editor-demo/' : '/', // 输出文件目录
   outputDir: 'dist',
   // 用于嵌套生成的静态资产（js，css，img，fonts）的目录
   assetsDir: '',
