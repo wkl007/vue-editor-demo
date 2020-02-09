@@ -1,14 +1,14 @@
 <template>
-  <tinymce/>
+  <wang-editor/>
 </template>
 
 <script>
-import Tinymce from '@/components/Tinymce'
+import WangEditor from '@/components/WangEditor'
 
 export default {
   name: 'Home',
   components: {
-    Tinymce
+    WangEditor
   }
 }
 </script>

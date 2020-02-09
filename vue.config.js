@@ -35,6 +35,8 @@ module.exports = {
   configureWebpack: config => {
     // config.name = name
     const plugins = [
+      // 忽略moment locale文件
+      new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
       // 去console
       new TerserPlugin({
         terserOptions: {

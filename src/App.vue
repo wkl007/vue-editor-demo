@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/tinymce">Tinymce</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/wangEditor">WangEditor</router-link>
     </div>
     <router-view/>
   </div>
@@ -12,13 +12,13 @@
 #app {
   color: #2c3e50;
   font-family: Avenir, Helvetica, Arial, sans-serif;
-  text-align: center;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 #nav {
   padding: 30px;
+  text-align: center;
 
   a {
     color: #2c3e50;

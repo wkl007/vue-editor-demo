@@ -14,9 +14,9 @@ const routes = [
     component: () => import(/* webpackChunkName: "Tinymce" */ '@/views/Tinymce')
   },
   {
-    path: '/about',
-    name: 'About',
-    component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
+    path: '/wangEditor',
+    name: 'WangEditor',
+    component: () => import(/* webpackChunkName: "WangEditor" */ '@/views/WangEditor')
   }
 ]
 
