@@ -10,7 +10,7 @@ jobs:
           ref: master
       - name: build and deploy
         uses: JamesIves/github-pages-deploy-action@releases/v3
-        env:
+        with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: dist
