@@ -1,13 +1,16 @@
 <template>
   <div class="home">
+    <tinymce/>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
+import Tinymce from '@/components/Tinymce'
 
 export default {
   name: 'Home',
-  components: {}
+  components: {
+    Tinymce
+  }
 }
 </script>
