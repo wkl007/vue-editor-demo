@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "12b563362e02d027a7eb",
+    "revision": "cea017d586e8702990da",
     "url": "/vue-editor-demo/css/Tinymce.0b3c0431.css"
   },
   {
-    "revision": "a5989a0ab61140249c31",
+    "revision": "a7beca8673bca1393b53",
     "url": "/vue-editor-demo/css/app.8e17c9fa.css"
   },
   {
@@ -272,20 +272,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-editor-demo/editor/tinymce/tinymce.min.js"
   },
   {
-    "revision": "55b04faec88a594960e37246d92fe249",
+    "revision": "f831a221cb0fb17d29a9a9cea8e7a980",
     "url": "/vue-editor-demo/index.html"
   },
   {
-    "revision": "12b563362e02d027a7eb",
-    "url": "/vue-editor-demo/js/Tinymce.3a5af48c.js"
+    "revision": "cea017d586e8702990da",
+    "url": "/vue-editor-demo/js/Tinymce.14c34f2a.js"
   },
   {
-    "revision": "79057d7b6ea3c3b4d2a8",
-    "url": "/vue-editor-demo/js/WangEditor.7921c7da.js"
+    "revision": "7dcef246f8f816d1fe29",
+    "url": "/vue-editor-demo/js/WangEditor.6e3f001e.js"
   },
   {
-    "revision": "a5989a0ab61140249c31",
-    "url": "/vue-editor-demo/js/app.2364d6ef.js"
+    "revision": "a7beca8673bca1393b53",
+    "url": "/vue-editor-demo/js/app.02ce462b.js"
   },
   {
     "revision": "abd024df3f8d2f26de19",
