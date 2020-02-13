@@ -5918,6 +5918,11 @@ kind-of@^6.0.0, kind-of@^6.0.2:
   resolved "https://registry.npm.taobao.org/kind-of/download/kind-of-6.0.3.tgz?cache=0&sync_timestamp=1579193926808&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fkind-of%2Fdownload%2Fkind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha1-B8BQNKbDSfoG4k+jWqdttFgM5N0=
 
+kindeditor@^4.1.10:
+  version "4.1.10"
+  resolved "https://registry.npm.taobao.org/kindeditor/download/kindeditor-4.1.10.tgz#bbbbba9de38e13f8568205be765ef7339eb6d515"
+  integrity sha1-u7u6neOOE/hWggW+dl73M5621RU=
+
 known-css-properties@^0.11.0:
   version "0.11.0"
   resolved "https://registry.npm.taobao.org/known-css-properties/download/known-css-properties-0.11.0.tgz#0da784f115ea77c76b81536d7052e90ee6c86a8a"

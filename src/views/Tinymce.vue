@@ -6,7 +6,7 @@
 import Tinymce from '@/components/Tinymce'
 
 export default {
-  name: 'Home',
+  name: 'TinymcePage',
   components: {
     Tinymce
   }

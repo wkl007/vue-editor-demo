@@ -2,7 +2,8 @@
   <div id="app">
     <div id="nav">
       <router-link to="/tinymce">Tinymce</router-link> |
-      <router-link to="/wangEditor">WangEditor</router-link>
+      <router-link to="/wangEditor">WangEditor</router-link> |
+      <router-link to="/kindEditor">KindEditor</router-link>
     </div>
     <router-view/>
   </div>

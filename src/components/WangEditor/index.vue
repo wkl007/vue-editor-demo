@@ -9,7 +9,7 @@ import { isUrl } from '@/utils'
 import CommonServer from '@/api/common'
 
 export default {
-  name: 'Editor',
+  name: 'WangEditor',
   props: {
     html: {
       type: String,

@@ -6,7 +6,7 @@
 import WangEditor from '@/components/WangEditor'
 
 export default {
-  name: 'Home',
+  name: 'WangEditorPage',
   components: {
     WangEditor
   }
