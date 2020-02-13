@@ -13,7 +13,7 @@ import configs from './configs'
 const UE = window.UE
 
 // 设置 UEDITOR_HOME_URL
-window.UEDITOR_HOME_URL = process.env.NODE_ENV === 'production' ? '/vue-editor-demo/editor/ueditor' : '/editor/ueditor'
+window.UEDITOR_HOME_URL = '/editor/ueditor'
 
 export default {
   name: 'UEditor',
