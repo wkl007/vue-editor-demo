@@ -1,5 +1,9 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
+    "revision": "d41d8cd98f00b204e9800998ecf8427e",
+    "url": "/vue-editor-demo/.nojekyll"
+  },
+  {
     "revision": "56815d6e41b93c0e5f4a",
     "url": "/vue-editor-demo/css/KindEditor.4d547702.css"
   },
