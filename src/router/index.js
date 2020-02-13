@@ -22,7 +22,11 @@ const routes = [
     path: '/kindEditor',
     name: 'KindEditor',
     component: () => import(/* webpackChunkName: "KindEditor" */ '@/views/KindEditor')
-
+  },
+  {
+    path: '/uEditor',
+    name: 'UEditor',
+    component: () => import(/* webpackChunkName: "UEditor" */ '@/views/UEditor')
   }
 ]
 

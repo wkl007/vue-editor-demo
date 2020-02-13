@@ -12,7 +12,7 @@ export default {
   },
   data () {
     return {
-      html: '你好',
+      html: 'https://shancai-1257275967.coscd.myqcloud.com/shancai/images/20190731/center2019073111173646.html',
       content: ''
     }
   },

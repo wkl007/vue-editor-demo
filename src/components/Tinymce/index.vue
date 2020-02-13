@@ -15,8 +15,10 @@
 </template>
 
 <script>
-import plugins from './plugins'
-import toolbar from './toolbar'
+import { isUrl } from '@/utils'
+import CommonServer from '@/api/common'
+import plugins from './configs/plugins'
+import toolbar from './configs/toolbar'
 
 export default {
   name: 'Tinymce',
@@ -27,7 +29,7 @@ export default {
         return 'vue-tinymce-' + +new Date() + ((Math.random() * 1000).toFixed(0) + '')
       }
     },
-    value: {
+    html: {
       type: String,
       default: ''
     },
@@ -71,10 +73,15 @@ export default {
     }
   },
   watch: {
-    value (val) {
+    async html (val) {
       if (!this.hasChange && this.hasInit) {
+        let html = val
+        if (isUrl(html)) {
+          const res = await CommonServer.getHtml(val)
+          html = res.data
+        }
         this.$nextTick(() =>
-          window.tinymce.get(this.tinymceId).setContent(val || ''))
+          window.tinymce.get(this.tinymceId).setContent(html || ''))
       }
     }
   },
@@ -112,9 +119,14 @@ export default {
         default_link_target: '_blank',
         link_title: false,
         // nonbreaking_force_tab: true, // inserting nonbreaking space &nbsp; need Nonbreaking Space Plugin
-        init_instance_callback: editor => {
-          if (_this.value) {
-            editor.setContent(_this.value)
+        init_instance_callback: async editor => {
+          if (_this.html) {
+            let html = _this.html
+            if (isUrl(html)) {
+              const res = await CommonServer.getHtml(html)
+              html = res.data
+            }
+            editor.setContent(html)
           }
           _this.hasInit = true
           editor.on('NodeChange Change KeyUp SetContent', () => {
