@@ -126,7 +126,7 @@
   ]
   var baseURL = '/editor/ueditor/_src/'
   if
-  (window.location.href === 'wkl007.github.io') {
+  (window.location.host === 'wkl007.github.io') {
     baseURL = '/vue-editor-demo/editor/ueditor/_src/'
   }
   for (var i = 0, pi; (pi = paths[i++]);) {

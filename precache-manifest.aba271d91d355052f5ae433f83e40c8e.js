@@ -1340,7 +1340,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-editor-demo/editor/ueditor/dialogs/wordimage/wordimage.js"
   },
   {
-    "revision": "3237d8aab1e1fd534e99fecebdc3fe8a",
+    "revision": "66d36759a58ce5b8290efc35a74fe1da",
     "url": "/vue-editor-demo/editor/ueditor/editor_api.js"
   },
   {
