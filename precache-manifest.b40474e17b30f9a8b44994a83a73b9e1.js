@@ -8,11 +8,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-editor-demo/css/Tinymce.c22e89a4.css"
   },
   {
-    "revision": "ab0f447225a8239f1040",
-    "url": "/vue-editor-demo/css/UEditor.53d25a24.css"
+    "revision": "a17b475e1fd885b41fe2",
+    "url": "/vue-editor-demo/css/UEditor.813bcca3.css"
   },
   {
-    "revision": "3cddc4bdc270d1e6fa06",
+    "revision": "5a88a1252ff8c63b9fff",
     "url": "/vue-editor-demo/css/app.8e17c9fa.css"
   },
   {
@@ -1932,7 +1932,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-editor-demo/img/default.4a1cec12.png"
   },
   {
-    "revision": "9c4f08eea3925b2e599790e01b135f05",
+    "revision": "3e5085426e90625d231b563cd5e6b514",
     "url": "/vue-editor-demo/index.html"
   },
   {
@@ -1956,16 +1956,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-editor-demo/js/Tinymce.070691d0.js"
   },
   {
-    "revision": "ab0f447225a8239f1040",
-    "url": "/vue-editor-demo/js/UEditor.fb16273b.js"
+    "revision": "a17b475e1fd885b41fe2",
+    "url": "/vue-editor-demo/js/UEditor.1bd5143e.js"
   },
   {
     "revision": "0f821fe33b6415518dba",
     "url": "/vue-editor-demo/js/WangEditor.6e4d1e6d.js"
   },
   {
-    "revision": "3cddc4bdc270d1e6fa06",
-    "url": "/vue-editor-demo/js/app.c989186d.js"
+    "revision": "5a88a1252ff8c63b9fff",
+    "url": "/vue-editor-demo/js/app.ad8ef856.js"
   },
   {
     "revision": "b2b818ee4ed654a0a905",
