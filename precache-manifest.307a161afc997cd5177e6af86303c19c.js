@@ -4,19 +4,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-editor-demo/.nojekyll"
   },
   {
-    "revision": "eb72909411a4594b06d1",
+    "revision": "15cc1d5b790b64d95b8f",
     "url": "/vue-editor-demo/css/KindEditor.4d547702.css"
   },
   {
-    "revision": "e7b461c33ee23258f683",
+    "revision": "5c182b5155f2f8283088",
     "url": "/vue-editor-demo/css/Tinymce.c22e89a4.css"
   },
   {
-    "revision": "9d6bde0445d0bf5b1040",
+    "revision": "329cc1aea7c9a5280385",
     "url": "/vue-editor-demo/css/UEditor.438dc21b.css"
   },
   {
-    "revision": "90cf0d4919c5f60819ae",
+    "revision": "3f538d4b688930e89f14",
     "url": "/vue-editor-demo/css/app.8e17c9fa.css"
   },
   {
@@ -1936,44 +1936,44 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/vue-editor-demo/img/default.4a1cec12.png"
   },
   {
-    "revision": "1b54314ac1747dbe5b3dd082a6a75b4c",
+    "revision": "cf1293d4482eed54cfce0d365d84ed07",
     "url": "/vue-editor-demo/index.html"
   },
   {
-    "revision": "eb72909411a4594b06d1",
-    "url": "/vue-editor-demo/js/KindEditor.14a09480.js"
+    "revision": "15cc1d5b790b64d95b8f",
+    "url": "/vue-editor-demo/js/KindEditor.96727a1f.js"
   },
   {
     "revision": "e38d607914df903e73899f99d46ae51a",
-    "url": "/vue-editor-demo/js/KindEditor.14a09480.js.LICENSE.txt"
+    "url": "/vue-editor-demo/js/KindEditor.96727a1f.js.LICENSE.txt"
   },
   {
-    "revision": "afe25f183a46cbb3c7a0",
-    "url": "/vue-editor-demo/js/KindEditor~Tinymce~UEditor~WangEditor.206464c2.js"
+    "revision": "a5e812b47ca737edcd32",
+    "url": "/vue-editor-demo/js/KindEditor~Tinymce~UEditor~WangEditor.be3dd0e9.js"
   },
   {
     "revision": "fd7ce37be0d66d99574c",
     "url": "/vue-editor-demo/js/KindEditor~UEditor.fc44bb53.js"
   },
   {
-    "revision": "e7b461c33ee23258f683",
-    "url": "/vue-editor-demo/js/Tinymce.fa1a1b35.js"
+    "revision": "5c182b5155f2f8283088",
+    "url": "/vue-editor-demo/js/Tinymce.84be3dad.js"
   },
   {
-    "revision": "9d6bde0445d0bf5b1040",
-    "url": "/vue-editor-demo/js/UEditor.0bd226af.js"
+    "revision": "329cc1aea7c9a5280385",
+    "url": "/vue-editor-demo/js/UEditor.ec997424.js"
   },
   {
-    "revision": "54012110c110205dd6e9",
-    "url": "/vue-editor-demo/js/WangEditor.8cc36150.js"
+    "revision": "5d9841ac130fca6dea40",
+    "url": "/vue-editor-demo/js/WangEditor.ae780936.js"
   },
   {
     "revision": "8e7fa176b006150306288bd092a696c0",
-    "url": "/vue-editor-demo/js/WangEditor.8cc36150.js.LICENSE.txt"
+    "url": "/vue-editor-demo/js/WangEditor.ae780936.js.LICENSE.txt"
   },
   {
-    "revision": "90cf0d4919c5f60819ae",
-    "url": "/vue-editor-demo/js/app.2b7b37c8.js"
+    "revision": "3f538d4b688930e89f14",
+    "url": "/vue-editor-demo/js/app.531668d5.js"
   },
   {
     "revision": "a93445aa40b75cc9db3e",
